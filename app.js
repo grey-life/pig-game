@@ -60,7 +60,7 @@ function togglePlayer() {
 
 function setWinnerScore(){
     winnerScore = document.getElementById('win-score').value;
-    if(winnerScore !== ' '){
+    if(winnerScore === ''){
         winnerScore = 100;
     }
     console.log(winnerScore);
