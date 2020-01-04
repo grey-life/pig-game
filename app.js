@@ -63,7 +63,7 @@ function setWinnerScore(){
     if(winnerScore !== ' '){
         winnerScore = 100;
     }
-    // console.log(winnerScore);
+    console.log(winnerScore);
 }
 
 function winnerCheck() {
